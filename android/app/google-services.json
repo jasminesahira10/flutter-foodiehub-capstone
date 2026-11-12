@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "268173011165",
+    "project_id": "cloud-notes-44136",
+    "storage_bucket": "cloud-notes-44136.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268173011165:android:df51dcfe4699ae181b9334",
+        "android_client_info": {
+          "package_name": "com.example.cloud_notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS71GCy1bKp3Fr549uax-8xzqt5sa0Ji8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268173011165:android:2ced506359a1a8281b9334",
+        "android_client_info": {
+          "package_name": "com.example.food_order_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS71GCy1bKp3Fr549uax-8xzqt5sa0Ji8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

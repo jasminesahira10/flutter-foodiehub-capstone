@@ -1,23 +1,24 @@
-# Food Order App (Flutter)
-A feature-rich food ordering prototype.
+# FoodieHub (Flutter Capstone)
+A food ordering app for web and mobile.
+
+Live Website: https://cloud-notes-44136.web.app
+Demo Video: https://drive.google.com/file/d/15cC_A0zrt3-7Qjpzoyo7CclOaDlTziy7/view?usp=drive_link
+Documentation: docs/ARCHITECTURE.md
 
 ## Features
-- Advanced state management with Provider (cart, orders)
-- Menu, cart with quantity controls, total price
-- Order confirmation notification (in-app dialog)
-- Gallery / camera photo selection (image_picker)
-- Device location with permission handling (geolocator)
-- Error handling for denied permissions and failures
-
-## Performance and Build
-- Profiled with Flutter DevTools
-- Release build: flutter build web --release
-- Android permissions: location and camera (AndroidManifest.xml)
+- Register / Login / Logout (Firebase Authentication)
+- Orders saved in Cloud Firestore
+- Cart saved locally (shared_preferences)
+- State management with Provider
+- Search and category filters
+- Gallery/camera photo and device location
+- Order confirmation notification
+- Error handling and Firestore security rules
+- Deployed with Firebase Hosting
 
 ## Screenshots
+![Login](screenshots/login.png)
 ![Menu](screenshots/menu.png)
 ![Cart](screenshots/cart.png)
 ![Order](screenshots/order.png)
 ![Profile](screenshots/profile.png)
-![Location](screenshots/location.png)
-![Error](screenshots/error.png)

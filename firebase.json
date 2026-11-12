@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cloud-notes-44136",
+          "appId": "1:268173011165:android:2ced506359a1a8281b9334",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cloud-notes-44136",
+          "configurations": {
+            "android": "1:268173011165:android:2ced506359a1a8281b9334",
+            "ios": "1:268173011165:ios:641f9a13110b86981b9334",
+            "macos": "1:268173011165:ios:641f9a13110b86981b9334",
+            "web": "1:268173011165:web:aaf6d37235e937031b9334",
+            "windows": "1:268173011165:web:d4cfae50c2ab8c811b9334"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
